@@ -53,7 +53,7 @@ bool esPantallaGrande(BuildContext context) {
 
 Future<void> _cargarDatos(int id) async {
   ProgressDialog pr = ProgressDialog(context: context);
-  pr.show(max: 600, msg: 'Procesando Consulta...');
+  pr.show(max: 600, msg: 'Procesando Consulta....');
 
   var headersList = map;
   final headers = {
